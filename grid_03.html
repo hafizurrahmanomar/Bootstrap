@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Grid Big class-03</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    >
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <h1>Hello Learners!</h1>
+      <h3>তিনটি সমান কলামের জন্য</h3>
+      <p>প্রতিক্রিয়া দেখার জন্য ব্রাউজারের স্ক্রিন ছোট বড় করুন।</p>
+      <div class="row">
+        <div class="col-sm-4" style="background-color: #ff9999; color: white">
+          four column
+        </div>
+        <div class="col-sm-4" style="background-color: #c299ff; color: white">
+          four column
+        </div>
+        <div class="col-sm-4" style="background-color: #b3ffb3; color: white">
+          four column
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <h3>তিনটি অসমান কলামের জন্য</h3>
+      <h3>Hello Learners!</h3>
+      <div class="row">
+        <div class="col-sm-6" style="background-color: #ff9999; color: white">
+          six column
+        </div>
+        <div class="col-sm-3" style="background-color: #c299ff; color: white">
+          three column
+        </div>
+        <div class="col-sm-3" style="background-color: #b3ffb3; color: white">
+          three column
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <h3>দুটি অসমান কলামের জন্য</h3>
+      <h1>Hello Learners!</h1>
+      <div class="row">
+        <div class="col-sm-9" style="background-color: #ff9999; color: white">
+          nine column
+        </div>
+        <div class="col-sm-3" style="background-color: #c299ff; color: white">
+          three column
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <h3>দুটি কলামের মধ্যে আরো দুটি নেস্টেড কলাম</h3>
+      <h1>Hello Learners!</h1>
+      <div class="row">
+        <div class="col-sm-9" style="background-color: #ff9999; color: white">
+          nine column
+          <div class="row">
+            <div class="col-sm-4" style="background-color: red; color: white">
+              four column
+            </div>
+            <div class="col-sm-8" style="background-color: green; color: white">
+              eight column
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3" style="background-color: #c299ff; color: white">
+          three column
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="container-fluid">
+      <h3>নেস্টেড কলাম</h3>
+      <h1>Hello Learners</h1>
+      <div class="row">
+        <div class="col-sm-9" style="background-color: #b3ffb3; color: azure">
+          nine colum
+          <div class="row">
+            <div
+              class="col-sm-8"
+              style="background-color: blue; color: #ff9999"
+            >
+              colum 8
+            </div>
+            <div class="col-sm-4" style="background-color: gold; color: brown">
+              colum 4
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3" style="background-color: red; color: azure">
+          colum 3
+        </div>
+      </div>
+    </div>
+    <hr />
+
+    <!-- এক্ষেত্রে ছোট ডিভাইসের জন্য col-sm-* ক্লাস, মিডিয়াম ডিভাইসের জন্য col-md-* ক্লাস এবং বড় ডিভাইসের জন্য col-lg-* ক্লাস কাজ করবে। -->
+
+    <div class="container-fluid">
+      <h3>ছোট,মিডিয়াম,বড় জন্য(col-sm-*,col-md-*,col-lg-*) ক্লাস কাজ করবে</h3>
+      <h1>Hello Learners!</h1>
+      <div class="row">
+        <div
+          class="col-sm-6 col-md-4 col-lg-3"
+          style="background-color: #ff9999; color: white"
+        >
+          <p>
+            Bootstrap is a popular free frontend framework on html, css and
+            javascript.<br />
+            Bootstrap is a popular free frontend framework on html, css and
+            javascript.
+          </p>
+        </div>
+        <div
+          class="col-sm-6 col-md-8 col-lg-9"
+          style="background-color: #c299ff; color: white"
+        >
+          <p>
+            Bootstrap is fun! We hope you are enjoying this.<br />Bootstrap is
+            fun! We hope you are enjoying this.<br />Bootstrap is fun! We hope
+            you are enjoying this.
+          </p>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <!-- শুধুমাত্র বড় ডিভাইসের জন্য ব্যবহার -->
+    <div class="container-fluid">
+      <h3>শুধুমাত্র বড় ডিভাইসের জন্য ব্যবহার</h3>
+      <h1>Hello Learners!</h1>
+      <div class="row">
+        <div class="col-lg-6" style="background-color: #ff9999; color: white">
+          <p>
+            Bootstrap is a popular free frontend framework on html, css and
+            javascript.<br />
+            Bootstrap is a popular free frontend framework on html, css and
+            javascript.
+          </p>
+        </div>
+        <div class="col-lg-6" style="background-color: #c299ff; color: white">
+          <p>
+            Bootstrap is fun! We hope you are enjoying this.<br />Bootstrap is
+            fun! We hope you are enjoying this.<br />Bootstrap is fun! We hope
+            you are enjoying this.
+          </p>
+        </div>
+      </div>
+    </div>
+    <hr />
+
+    <div class="container">
+      <h2>মিক্সডঃ মোবাইল এবং ডেস্কটপ</h2>
+      <h1>Hello Learners!</h1>
+      <div class="row">
+        <div
+          class="col-xs-8 col-md-5"
+          style="background-color: #ff9999; color: white"
+        >
+          mobile-8column | dekstop-5column
+        </div>
+        <div
+          class="col-xs-4 col-md-7"
+          style="background-color: #c299ff; color: white"
+        >
+          mobile-4column | dekstop-7column
+        </div>
+      </div>
+      <hr />
+      <div class="row">
+        <div
+          class="col-xs-7 col-md-2"
+          style="background-color: #c299ff; color: white"
+        >
+          mobile-7column | dekstop-2column
+        </div>
+        <div
+          class="col-xs-5 col-md-10"
+          style="background-color: #ff9999; color: white"
+        >
+          mobile-5column | dekstop-10column
+        </div>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="col-xs-6" style="background-color: #ff9999; color: white">
+          mobile-6column
+        </div>
+        <div class="col-xs-6" style="background-color: #c299ff; color: white">
+          mobile-6column
+        </div>
+      </div>
+    </div>
+
+    <hr />
+    <div class="container-fluid">
+      <h3>মিশ্রঃ মোবাইল, ট্যাবলেট এবং ডেস্কটপ</h3>
+      <h1>Hello Learners!</h1>
+      <div class="row">
+        <div
+          class="col-xs-6 col-md-4 col-lg-3"
+          style="background-color: #ff9999; color: white"
+        >
+          mobile-6column | dekstop-4column | big-dekstop-3column
+        </div>
+        <div
+          class="col-xs-6 col-md-8 col-lg-9"
+          style="background-color: #c299ff; color: white"
+        >
+          mobile-6column | dekstop-8column | big-dekstop-9column
+        </div>
+      </div>
+      <hr />
+      <div class="row">
+        <div
+          class="col-xs-3 col-md-6 col-lg-4"
+          style="background-color: #c299ff; color: white"
+        >
+          mobile-3column | dekstop-6column | big-dekstop-4column
+        </div>
+        <div
+          class="col-xs-9 col-md-6 col-lg-8"
+          style="background-color: #ff9999; color: white"
+        >
+          mobile-9column | dekstop-6column | big-dekstop-8column
+        </div>
+      </div>
+    </div>
+
+    <hr />
+    <!-- নির্দিষ্ট ব্রেকপয়েন্টে অদ্ভুত wrapping প্রতিরোধ করতে ফ্লোট ক্লিয়ার করুন(.clearfix ক্লাসের মাধ্যমে): -->
+
+    <div class="container">
+      <h1 class="text-center">ফ্লোট ক্লিয়ার</h1>
+      <h1>Hello Learners!</h1>
+      <div class="row">
+        <div
+          class="col-xs-6 col-sm-3"
+          style="background-color: #c299ff; color: white"
+        >
+          প্রথম কলাম
+          <br />
+          প্রতিক্রিয়া দেখার জন্য ব্রাউজারের উইন্ডোর আকার ছোট বড় করুন।
+        </div>
+        <div
+          class="col-xs-6 col-sm-3"
+          style="background-color: #ff9999; color: white"
+        >
+          দ্বিতীয় কলাম
+        </div>
+
+        <!-- নির্দিষ্ট ভিউপোর্টের আকার অনুযায়ী clearfix যুক্ত করুন-->
+        <div class="clearfix visible-xs"></div>
+        <div
+          class="col-xs-6 col-sm-3"
+          style="background-color: #b3ffb3; color: white"
+        >
+          তৃতীয় কলাম
+        </div>
+        <div
+          class="col-xs-6 col-sm-3"
+          style="background-color: #c299ff; color: white"
+        >
+          চতুর্থ কলাম
+        </div>
+      </div>
+    </div>
+
+    <hr />
+    <!-- কলামকে ডানদিকে সরিয়ে নেয়ার জন্য .col-*-offset-* ক্লাস ব্যবহার করুন। এটি কলামের বাম দিকের মার্জিন বৃদ্ধি(কলামের প্রস্থের সমান) করেঃ -->
+
+    <div class="container-fluid">
+      <h3>কলাম অফসেট</h3>
+      <h1>Hello Learners!</h1>
+      <div class="row">
+        <div
+          class="col-sm-5 col-md-6"
+          style="background-color: #ff9999; color: white"
+        >
+          .col-sm-5 .col-md-6
+        </div>
+        <div
+          class="col-sm-5 col-sm-offset-2 col-md-6 col-md-offset-0"
+          style="background-color: #c299ff; color: white"
+        >
+          .col-sm-5 .col-sm-offset-2 .col-md-6 .col-md-offset-0
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <!-- গ্রীড কলামের ক্রম পরিবর্তন করার জন্য .col-*-push-* ক্লাস ব্যবহার করুনঃ -->
+    <div class="container-fluid">
+      <h3>Push এবং Pull - কলাম ক্রম পরিবর্তন</h3>
+      <h1>Hello Learners!</h1>
+      <div class="row">
+        <div
+          class="col-sm-4 col-sm-push-8"
+          style="background-color: #ff9999; color: white"
+        >
+          .col-sm-4 .col-sm-push-8
+        </div>
+        <div
+          class="col-sm-8 col-sm-pull-4"
+          style="background-color: #c299ff; color: white"
+        >
+          .col-sm-8 .col-sm-pull-4
+        </div>
+      </div>
+    </div>
+    <hr />
+
+    
+    <!--Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
