@@ -1,0 +1,49 @@
+.logo{
+    width: 120px;
+}
+h1,h2,h3,h4,h5,h6,p{
+    color: whitesmoke !important;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.bg-color{
+    background-color: #0D1224;
+}
+
+.email-input-bg{
+    background-color: #595d64e7;
+    
+
+}
+.section-spacing{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.hero-bg{
+    background-image: url("../assets/images/gradient.webp");
+}
+
+.card-bg{
+    background-image: url(../assets/images/icon.svg);
+    background-size: 25%;
+    background-position: right;
+    background-repeat: no-repeat;
+    
+}
+
+.card-bg-color{
+    background-color: #11152948;
+}
+
+.text-align{
+    text-align: left;
+}
+
+.contact{
+    width: auto;
+   
+}
+a{
+    color: white;
+    text-decoration: none;
+}
